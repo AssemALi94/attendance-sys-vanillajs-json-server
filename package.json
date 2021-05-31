@@ -1,0 +1,17 @@
+{
+  "name": "jsonserver",
+  "version": "1.0.0",
+  "description": "Attendance system fake backend",
+  "main": "server.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json",
+    "start": "json-server db.json -m ./node_modules/json-server-auth"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "json-server": "^0.16.3",
+    "json-server-auth": "^2.0.2"
+  }
+}

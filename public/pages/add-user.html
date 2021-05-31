@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<body>
+
+    <head>
+        <title>Add user</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+            integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+        <link href="../assets/css/adduser.css" rel="stylesheet">
+    </head>
+
+    <div class="container">
+        <div class="form-container">
+            <form>
+                <h1>Confirm Account</h1>
+                <input type="text" id="fname" placeholder="First Name" />
+                <input type="text" id="lname" placeholder="Last Name" />
+                <input type="text" id="address" placeholder="Address" />
+                <input type="email" id="up-mail" placeholder="Email" />
+                <input type="text" id="age" placeholder="Age" />
+                <div class="input-group mb-3">
+                    <input type="text" id="in-pswd" class="form-control"  aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button type="button" id="genpswd">Generate Password</button>
+                    </div>
+                  </div>
+                <button type="button" id="addUser">Add Employee</button>
+
+        </div>
+        <!-- <button type="button" id="addUser">Add Employee</button> -->
+        </form>
+    </div>
+    </div>
+    <script src="../assets/js/library.js"></script>
+    <script src="../assets/js/add-user.js"></script>
+</body>
+
+</html>

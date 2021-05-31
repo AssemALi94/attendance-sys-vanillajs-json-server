@@ -1,0 +1,66 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "admin",
+      "lastName": "admin",
+      "Address": "Mansoura",
+      "age": 45,
+      "mail": "assem.ali994@yopmail.com",
+      "role": "ADMIN",
+      "password": "aaa"
+    },
+    {
+      "firstName": "assem",
+      "lastName": "ali",
+      "Address": "mansoura",
+      "age": "20",
+      "mail": "assem.ali94@gmail.com",
+      "role": "USER",
+      "id": 5,
+      "password": "aaa"
+    }
+  ],
+  "attendances": [
+    {
+      "user_id": 5,
+      "date": "2/11/2021",
+      "year": 2021,
+      "month": 2,
+      "day": 11,
+      "time": "11:19:01 PM",
+      "isLate": "true",
+      "id": 1
+    },
+    {
+      "user_id": 5,
+      "date": "3/11/2021",
+      "year": 2021,
+      "month": 2,
+      "day": 11,
+      "time": "11:19:01 PM",
+      "isLate": "true",
+      "id": 1
+    },
+    {
+      "user_id": 1,
+      "date": "4/11/2021",
+      "year": 2021,
+      "month": 2,
+      "day": 11,
+      "time": "11:19:01 PM",
+      "isLate": "false",
+      "id": 1
+    },
+    {
+      "user_id": 1,
+      "date": "2/11/2021",
+      "year": 2021,
+      "month": 2,
+      "day": 11,
+      "time": "11:19:01 PM",
+      "isLate": "true",
+      "id": 1
+    }
+  ]
+}

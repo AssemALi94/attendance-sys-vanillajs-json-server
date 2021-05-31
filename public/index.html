@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>home</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+		integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+		crossorigin="anonymous" />
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<style>
+		.bd-placeholder-img {
+			font-size: 1.125rem;
+			text-anchor: middle;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			user-select: none;
+		}
+
+		@media (min-width: 768px) {
+			.bd-placeholder-img-lg {
+				font-size: 3.5rem;
+			}
+		}
+	</style>
+
+	<link href="assets/css/index.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container" id="container">
+		<div class="form-container sign-up-container">
+
+			<form action="#" id="signup" method="post" novalidate>
+				<h1>Create Account</h1>
+				<div class="form-control">
+					<input type="text" id="fname" placeholder="First Name" />
+					<small>Error message</small>
+					<i class="fas fa-check-circle"></i>
+					<i class="fas fa-exclamation-circle"></i>
+				</div>
+
+				<div class="form-control">
+					<input type="text" id="lname" placeholder="Last Name" />
+					<small>Error message</small>
+					<i class="fas fa-check-circle"></i>
+					<i class="fas fa-exclamation-circle"></i>
+				</div>
+
+				<div class="form-control">
+					<input type="text" id="address" placeholder="Address" />
+					<small>Error message</small>
+					<i class="fas fa-check-circle"></i>
+					<i class="fas fa-exclamation-circle"></i>
+				</div>
+				<div class="form-control">
+					<input type="email" id="up-mail" placeholder="Email" />
+					<small>Error message</small>
+					<i class="fas fa-check-circle"></i>
+					<i class="fas fa-exclamation-circle"></i>
+				</div>
+
+				<div class="form-control">
+					<input type="text" id="age" placeholder="Age" />
+					<small>Error message</small>
+					<i class="fas fa-check-circle"></i>
+					<i class="fas fa-exclamation-circle"></i>
+				</div>
+				<button type="submit">Sign Up</button>
+
+			</form>
+		</div>
+		<div class="form-container sign-in-container">
+
+			<form action="#">
+				<h1>Sign in</h1>
+				<input type="email" placeholder="Email" id="signin_email" />
+				<input type="password" placeholder="Password" id="signin_password" />
+				<button type="click" onclick="signIn()">Sign in</button>
+			</form>
+		</div>
+		<div class="overlay-container">
+			<div class="overlay">
+				<div class="overlay-panel overlay-left">
+					<h1>One of us?!</h1>
+					<p>To keep connected with us please login with your personal info</p>
+					<button class="ghost" id="signIn">Sign In</button>
+				</div>
+				<div class="overlay-panel overlay-right">
+					<h1>New Here?!</h1>
+					<p>Enter your personal details and start journey with us</p>
+					<button class="ghost" id="signUp">Sign Up</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="assets/js/library.js"></script>
+	<script src="assets/js/index.js"></script>
+</body>
+
+</html>
